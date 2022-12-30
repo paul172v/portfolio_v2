@@ -1,0 +1,13 @@
+@use "../../colors.scss";
+
+.card {
+  background-color: colors.$card-background;
+  border: 1px solid colors.$card-border;
+  color: colors.$font-color;
+  font-size: 2rem;
+  font-weight: 200;
+  width: 60rem;
+  border-radius: 0.5rem;
+  padding: 2rem 4rem;
+  margin-top: 8rem;
+}
